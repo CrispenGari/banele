@@ -1,0 +1,46 @@
+{% extends 'base.html'%} {%block title%}Banele{%endblock%} {%block content%}
+
+<h1>Welcome to my website.</h1>
+<img src="{{url_for('static', filename='/images/robot.jpg')}}" alt="me" />
+<div class="socials">
+  <a href="#"
+    ><img
+      src="{{url_for('static', filename='/images/facebook.png')}}"
+      alt="facebook"
+  /></a>
+  <a href="#"
+    ><img src="{{url_for('static', filename='/images/ig.png')}}" alt="ig"
+  /></a>
+  <a href="#"
+    ><img
+      src="{{url_for('static', filename='/images/twitter.png')}}"
+      alt="twitter"
+  /></a>
+  <a href="#"
+    ><img
+      src="{{url_for('static', filename='/images/linkedin.png')}}"
+      alt="linkein"
+  /></a>
+  <a href="#"
+    ><img
+      src="{{url_for('static', filename='/images/github.png')}}"
+      alt="github"
+  /></a>
+</div>
+
+<div class="about">
+  <h1>About me.</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ex labore
+    fuga dignissimos voluptatem doloremque numquam ut porro quod placeat
+    consequuntur, ab illum, officiis impedit atque adipisci autem nihil
+    laboriosam modi vero enim reprehenderit quos. Accusantium quo aliquid ab
+    sunt expedita odit reiciendis. Perspiciatis esse, vitae officiis nemo eius
+    asperiores quas quos, eligendi nostrum commodi unde quisquam? Quibusdam,
+    error eos omnis rerum ex corrupti nam veniam consequuntur necessitatibus
+    autem iure perspiciatis quos libero provident mollitia esse? A, similique
+    sint saepe dolorem quis dolore alias laborum, iure repudiandae labore ut quo
+    aliquam nam aspernatur molestias optio enim blanditiis officiis nemo autem!
+  </p>
+</div>
+{%endblock%}
