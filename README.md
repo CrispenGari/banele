@@ -54,6 +54,18 @@ After that we are going to then commit our project to `GitHub`. Then we can host
 
 First you need to create a [Netlify](https://www.netlify.com) account.
 
+1. When authenticated you will need to select an option on the Dashboard that says **`Import From Git`**.
+2. Then select `Deploy With GitHub`
+3. Select the `GitHub` project that you want to deploy.
+4. Specify the base directory to `/`
+5. Set deploy branch to `main`
+6. And you need to specify the build command to `python3 build.py`
+7. Click the `deploy` button then your site will be deployed.
+
+### Hosting on Cloudflare
+
+First you need to create a [Cloudflare](https://www.cloudflare.com/) account.
+
 ### Links
 
 1. [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/)
